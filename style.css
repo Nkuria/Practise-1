@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Recursive', sans-serif;
+}
+.top{
+    display: flex;
+    background-color: #00A6A4 ;
+    height: 80px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.header-text{
+    margin-left: 10px;
+}
+.nav-bar {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+    column-gap: 200px;
+}
+.nav-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }
+.logo-img{
+    height: 50px;
+    width: 100px;
+}
+.sign-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.all-sign-btn{
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+}
+.sign-up{
+background-color: #FF8000;
+color: white;
+border: none;
+}
+.sign-in{
+    border-color: #00A8AF;
+    color: #00A8AF;
+    border-width: 2px;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #F6F6F6;
+}
+.grid1-left{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+
+}
+.mint-xl {
+    height: 480px;
+    width: 100%;
+}
+.grid1-right{
+    background-color: blue;
+}
