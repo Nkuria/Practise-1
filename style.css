@@ -61,21 +61,78 @@ a{
 .grid1{
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: #F6F6F6;
+    background-color: #FAFAFC;
 }
 .grid1-left{
     display: flex;
     flex-direction: column;
-    background-color: red;
-    align-items: center;
     justify-content: center;
     margin-right: 70px;
 
+}
+.grid1-left-head{
+    font-size: 30px;
+}
+.all-style{
+    
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 20px;
 }
 .mint-xl {
     height: 480px;
     width: 100%;
 }
 .grid1-right{
-    background-color: blue;
+    
+}
+.grid1-left-btn {
+background-color: #FF8000;
+color: white;
+border: none;
+width: 170px;
+height: 45px;
+border-radius: 5px;
+
+}
+.cards{
+    display: flex;
+    margin-top: 50px;
+    background-color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.cards-prop{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: center;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    border-width: 5px;
+    border-top-color: #00A8AF;
+    border-radius: 5px;
+    
+    border-top-style: solid;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.cards-prop h1{
+    margin-bottom: 20px;
+}
+.cards-prop p{
+    margin-bottom: 40px;
+}
+
+.cards-prop img{
+    height: 60px;
+    width: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.grid2{
+    display: grid;
 }
